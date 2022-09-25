@@ -1,0 +1,10 @@
+
+- name: installing playbook
+  hosts: all
+  become: true
+  tasks:
+    - name: ping
+      ping:
+        data: test
+
+
