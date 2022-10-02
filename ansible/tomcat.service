@@ -15,8 +15,8 @@ Environment="CATALINA_HOME=/opt/tomcat"
 Environment="CATALINA_PID=/opt/tomcat/temp/tomcat.pid"
 Environment="CATALINA_OPTS=-Xms512M -Xmx1024M -server -XX:+UseParallelGC"
 
-ExecStart=/bin/bash /opt/tomcat/bin/startup.sh
-ExecStop=/bin/bash /opt/tomcat/bin/shutdown.sh
+ExecStart=/opt/tomcat/bin/startup.sh
+ExecStop=/opt/tomcat/bin/shutdown.sh
 
 RestartSec=10
 Restart=always
