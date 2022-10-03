@@ -6,7 +6,7 @@
       - name: copy war into tomcat server
         copy:
           src: /home/ubuntu/workspace/Compile_and_package_job/target/caltech_mvn_project-0.0.1-SNAPSHOT.war
-          dest: /opt/tomcat/webapps
+          dest: /opt/tomcat/webapps/caltech.war
 
 
 
