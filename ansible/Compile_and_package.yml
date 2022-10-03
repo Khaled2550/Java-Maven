@@ -4,4 +4,4 @@
     become: yes
     tasks:
       - name: Running mvn clean
-        shell: "mvn clean install package"
+        shell: "mvn -f /home/ubuntu/workspace/Compile_and_package_job/pom.xml clean install package"
