@@ -1,0 +1,13 @@
+---
+  - name: Deploy war
+    hosts: webservers
+    become: yes
+    tasks:
+      - name: copy war into tomcat server
+        copy:
+          src: /target/caltech_mvn_project-0.0.1-SNAPSHOT.war
+          dest: /opt/tomcat/webapps
+
+
+
+
