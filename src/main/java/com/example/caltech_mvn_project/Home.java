@@ -8,7 +8,7 @@ public class Home {
     
     @RequestMapping
     public String hello(){
-        return "Hello Spring Boot 2";
+        return "Hello Spring Boot 2 finally yes";
     }
 
 }
